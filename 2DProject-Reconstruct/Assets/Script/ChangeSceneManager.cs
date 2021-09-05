@@ -16,7 +16,7 @@ public class ChangeSceneManager : MonoBehaviour
     void Update(){
         InGameLoad();
 
-        if(GameManager.instance.isPaused || GameManager.instance.isOpenedInventory || GameManager.instance.isOpenedMap || GameManager.instance.isOpenedQuest){
+        if(InGameManager.setTimeScale()){
             Time.timeScale = 0;
         }else{
             Time.timeScale = 1;

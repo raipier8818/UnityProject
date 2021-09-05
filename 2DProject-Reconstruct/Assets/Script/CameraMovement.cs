@@ -53,16 +53,5 @@ public class CameraMovement : MonoBehaviour
         }
 
 
-        // transform.position = new Vector3(transform.position.x, (transform.position.y > minHeight ? transform.position.y : maxHeight), -10f);
-
-        // if(transform.position.x > rightBorder)
-        // {
-        //     transform.position = new Vector3(rightBorder, transform.position.y, transform.position.z);
-        // }
-        // if(transform.position.x < leftBorder)
-        // {
-        //     transform.position = new Vector3(leftBorder, transform.position.y, transform.position.z);
-        // }
-
     }
 }
